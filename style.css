@@ -96,7 +96,7 @@ body{
     height: 15px;
     background:var(--cover-color);
     z-index: 4;
-    transform: translateX(5px) rotate(-45deg);
+    transform: rotate(-45deg);
     transition: transform 1s ease-in-out 1s;
     transition-delay: 1s;
     box-shadow: 0 5px 6px rgba(121, 41, 60, 0.3);
