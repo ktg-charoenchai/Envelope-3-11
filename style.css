@@ -205,8 +205,8 @@ body{
         margin-top:60vh;
     }
     .change .letter{
-        height:480px;
-        transform: translateY(-370px) scale(1.1);
+        height:500px;
+        transform: translateY(-390px) scale(1.1);
     }
 }
 
