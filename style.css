@@ -201,18 +201,7 @@ body{
     }
 }
 
-@media only screen and (min-width:430px) and (max-width:765px){
-    .wrapper{
-        margin-top:70vh;
-        scale: 1.1;
-    }
-    .change .letter{
-        height:540px;
-        transform: translateY(-450px) scale(1.2);
-    }
-}
-
-@media only screen and (min-width:300px) and (max-width:429px){
+@media only screen and (min-width:300px) and (max-width:765px){
     .wrapper{
         margin-top:70vh;
         scale:0.9;
@@ -229,5 +218,4 @@ body{
         transform: translateY(-480px) scale(1.2);
     }
 }
-
 
