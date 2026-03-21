@@ -204,7 +204,7 @@ body{
 @media only screen and (min-width:300px) and (max-width:765px){
     .wrapper{
         margin-top:70vh;
-        scale:0.9;
+        scale:0.7;
     }
     .change h2{
         padding-top:10px 0;
@@ -214,8 +214,8 @@ body{
         font-size:12px;
     }
     .change .letter{
-        height:560px;
-        transform: translateY(-480px) scale(1.2);
+        height:5900px;
+        transform: translateY(-520px) scale(1.2);
     }
 }
 
