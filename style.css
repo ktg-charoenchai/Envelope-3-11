@@ -214,7 +214,7 @@ body{
         font-size:12px;
     }
     .change .letter{
-        height:5900px;
+        height:590px;
         transform: translateY(-520px) scale(1.2);
     }
 }
