@@ -190,23 +190,43 @@ body{
     transition-delay: 0.7s;
 }
 
-@media only screen and (min-width:667px){
+@media only screen and (min-width:768px){
     .wrapper{
-        margin-top:70vh;
+        margin-top:67vh;
+        scale: 1.1;
     }
     .change .letter{
         height:520px;
-        transform: translateY(-420px) scale(1.2);
+        transform: translateY(-410px) scale(1.2);
     }
 }
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:430px) and (max-width:765px){
     .wrapper{
-        margin-top:67vh;
+        margin-top:70vh;
+        scale: 1.1;
     }
     .change .letter{
-        height:500px;
-        transform: translateY(-400px) scale(1.1);
+        height:540px;
+        transform: translateY(-450px) scale(1.2);
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:429px){
+    .wrapper{
+        margin-top:70vh;
+        scale:0.9;
+    }
+    .change h2{
+        padding-top:10px 0;
+
+    }
+    .change p{
+        font-size:12px;
+    }
+    .change .letter{
+        height:560px;
+        transform: translateY(-480px) scale(1.2);
     }
 }
 
