@@ -17,6 +17,15 @@
     box-sizing: border-box;
 }
 
+header img{
+    max-width:100%;
+    width:80px;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left:10px;
+}
+
 body{
     height: 100vh;
     width:100%;
@@ -190,10 +199,34 @@ body{
     transition-delay: 0.7s;
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:1366px) {
+    .wrapper{
+        margin-top:60vh;
+        scale:1.2;
+    }
+    .change .letter{
+        height:540px;
+        transform: translateY(-490px)  scale(1.2);
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1365px){
+    .wrapper{
+        margin-top:65vh;
+        scale: 0.9;
+    }
+    img{
+        scale:1;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
     .wrapper{
         margin-top:67vh;
-        scale: 1.1;
+        scale: 1;
+    }
+    img{
+        scale:1.3;
     }
     .change .letter{
         height:520px;
@@ -201,10 +234,31 @@ body{
     }
 }
 
-@media only screen and (min-width:300px) and (max-width:765px){
+@media only screen and (min-width:540px) and (max-width:767px){
+    .wrapper{
+        margin-top:60vh;
+        scale:0.7;
+    }
+    .change .letter{
+        height:540px;
+        transform: translateY(-470px)  scale(1.2);
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:539px){
+    .wrapper{
+        margin-top:60vh;
+    }
+    .change .letter{
+        height:540px;
+        transform: translateY(-490px)  scale(1.2);
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:400px){
     .wrapper{
         margin-top:70vh;
-        scale:0.65;
+        scale:0.8;
     }
     .change h2{
         padding-top:10px 0;
@@ -214,8 +268,8 @@ body{
         font-size:12px;
     }
     .change .letter{
-        height:590px;
-        transform: translateY(-520px) scale(1.2);
+        height:560px;
+        transform: translateY(-480px) scale(1.2);
     }
 }
 
